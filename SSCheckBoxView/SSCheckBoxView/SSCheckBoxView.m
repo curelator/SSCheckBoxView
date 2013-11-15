@@ -44,7 +44,7 @@ static const CGFloat kHeight = 36.0f;
                style:(SSCheckBoxViewStyle)aStyle
              checked:(BOOL)aChecked
 {
-    frame.size.height = kHeight;
+    //frame.size.height = kHeight;
     if (!(self = [super initWithFrame:frame])) {
         return self;
     }
